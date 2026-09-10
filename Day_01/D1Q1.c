@@ -1,3 +1,10 @@
+/**
+ * Day: Day 01
+ * Question: Insert an Element at a Specific Position in an Array
+ * Approach: Shift elements right from index n down to pos, then insert x at pos - 1
+ * Time Complexity: O(n)
+ * Space Complexity: O(1) auxiliary
+ */
 #include <stdio.h>
 
 int main() {

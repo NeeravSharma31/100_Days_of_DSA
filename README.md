@@ -1,4 +1,4 @@
-﻿# 🚀 100 Days of DSA Challenge
+# 🚀 100 Days of DSA Challenge
 
 Welcome to my **100 Days of Data Structures and Algorithms** repository! This project tracks my daily practice and problem-solving journey across C and Java as recommended by my university curriculum.
 
@@ -6,24 +6,24 @@ Welcome to my **100 Days of Data Structures and Algorithms** repository! This pr
 
 ## 📌 Repository Structure
 
-`	ext
+```text
 100DaysofDSA/
 ├── .gitignore          # Ignores compiler outputs, executables, and IDE files
 ├── README.md           # Progress tracker and documentation
-├── Day_1/
+├── Day_01/
 │   ├── D1Q1.c          # Question 1 in C
 │   └── D1Q2.java       # Question 2 in Java
-├── Day_2/
+├── Day_02/
 │   ├── D2Q1.c
 │   └── D2Q2.java
-├── Day_3/
+├── Day_03/
 │   ├── D3Q1.c
 │   └── D3Q2.java
 └── ...
-`
+```
 
-> **Tip for Clean Organization:**
-> Keeping a consistent folder structure like Day_01, Day_02, ... Day_99, Day_100 ensures your file explorer and GitHub repository sort the days in exact chronological order.
+> **Organization Standard:**
+> Using zero-padded folder names (`Day_01`, `Day_02`, ... `Day_99`, `Day_100`) ensures your file explorer and GitHub repository sort the days in exact chronological order.
 
 ---
 
@@ -31,9 +31,9 @@ Welcome to my **100 Days of Data Structures and Algorithms** repository! This pr
 
 | Day | Topic / Data Structure | Problem 1 (C) | Problem 2 (Java) | Status |
 |:---:|:-----------------------|:--------------|:-----------------|:------:|
-| **Day 01** | Arrays | Insert element at specific position | Two Sum | ✅ Completed |
-| **Day 02** | Arrays | Delete element from specific position | Best Time to Buy & Sell Stock | ✅ Completed |
-| **Day 03** | Searching & Math | Linear Search (Comparison count) | Missing Number (Sum & XOR) | ✅ Completed |
+| **Day 01** | Arrays | Insert element at specific position | Two Sum (LeetCode #1) | ✅ Completed |
+| **Day 02** | Arrays | Delete element from specific position | Best Time to Buy & Sell Stock (LeetCode #121) | ✅ Completed |
+| **Day 03** | Searching & Math | Linear Search (Comparison count) | Missing Number (Sum & XOR) (LeetCode #268) | ✅ Completed |
 | **Day 04** | *Upcoming* | — | — | ⏳ Pending |
 | **Day 05** | *Upcoming* | — | — | ⏳ Pending |
 
@@ -45,45 +45,42 @@ Welcome to my **100 Days of Data Structures and Algorithms** repository! This pr
 
 ### C Programs
 Compile using GCC and run the binary:
-`ash
+```bash
 # Compile
-gcc Day_1/D1Q1.c -o Day_1/D1Q1
+gcc Day_01/D1Q1.c -o Day_01/D1Q1
 
 # Run (Windows PowerShell / Command Prompt)
-.\Day_1\D1Q1.exe
+.\Day_01\D1Q1.exe
 
 # Run (Linux / macOS)
-./Day_1/D1Q1
-`
+./Day_01/D1Q1
+```
 
 ### Java Programs
-Compile using javac and run with java:
-`ash
+Compile using `javac` and run with `java`:
+```bash
 # Compile
-javac Day_2/D2Q2.java
+javac Day_01/D1Q2.java
 
 # Run
-java -cp Day_2 D2Q2
-`
-
-> **Note on Java Class Naming:**
-> In Java, ensure the public class name matches the file name (e.g. public class D2Q2 in D2Q2.java). If using a LeetCode Solution class without a main method, you can add a public static void main(String[] args) method with sample test cases to run and verify it locally.
+java -cp Day_01 D1Q2
+```
 
 ---
 
 ## 📝 Code Template Best Practice
 
-To make each solution readable and professional, include a quick header comment at the top of each file:
+Each file includes problem metadata and complexity analysis:
 
-`c
+```c
 /**
- * Day: Day X
+ * Day: Day XX
  * Question: [Problem Title / Summary]
- * Approach: [Brief description of the algorithm]
+ * Approach: [Brief description of algorithm]
  * Time Complexity: O(...)
  * Space Complexity: O(...)
  */
-`
+```
 
 ---
 

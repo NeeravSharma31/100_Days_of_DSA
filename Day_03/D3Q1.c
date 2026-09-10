@@ -1,3 +1,10 @@
+/**
+ * Day: Day 03
+ * Question: Linear Search with Comparison Count
+ * Approach: Sequential traversal tracking comparison count until target is found
+ * Time Complexity: O(n)
+ * Space Complexity: O(1) auxiliary
+ */
 #include <stdio.h>
 
 int main() {
