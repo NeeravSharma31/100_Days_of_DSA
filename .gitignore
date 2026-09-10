@@ -1,0 +1,35 @@
+﻿# Output directories
+output/
+bin/
+build/
+dist/
+
+# VS Code settings
+.vscode/
+
+# C / C++ compiled files
+*.exe
+*.out
+*.o
+*.obj
+*.gch
+*.pdb
+*.ilk
+
+# Java compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# macOS & Windows system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor caches
+*.swp
+*.swo
+*~
+.idea/
+*.iml
